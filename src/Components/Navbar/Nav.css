@@ -1,0 +1,38 @@
+.nav{
+    position: fixed;
+    top: 0;
+    background: transparent;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 0;
+    z-index: 1;
+    height: 70px;
+    padding-left: 20px;
+    transition: all 0.5s ease-in;
+}
+.nav__black{
+    background-color: #111;
+}
+.nav__logo{
+    width: 80px;
+    object-fit: contain;
+}
+.nav__avatar{
+    position: fixed;
+    right: 20px;
+    top: 5px;
+    width: 30px;
+    object-fit: contain;
+    margin-top: 15px;
+}
+.logo__full{
+    color:#e50914;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+}
+.logo__full h2{
+    font-size: 20px;
+}
